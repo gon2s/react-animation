@@ -10,24 +10,26 @@ function HomeScreen() {
         <S.Divider />
         <S.AnimationBox>
           <Link to={'first'}>
-            <S.AnimationItemBox>{'ANIMATION 1'}</S.AnimationItemBox>
+            <S.AnimationItemBox>{'CH1. ROTATE'}</S.AnimationItemBox>
           </Link>
           <Link to={'second'}>
-            <S.AnimationItemBox>{'ANIMATION 2'}</S.AnimationItemBox>
+            <S.AnimationItemBox>{'CH2. FADE'}</S.AnimationItemBox>
           </Link>
           <Link to={'third'}>
-            <S.AnimationItemBox>{'ANIMATION 3'}</S.AnimationItemBox>
+            <S.AnimationItemBox>{'CH3. GESTURE'}</S.AnimationItemBox>
           </Link>
           <Link to={'fourth'}>
-            <S.AnimationItemBox>{'ANIMATION 4'}</S.AnimationItemBox>
+            <S.AnimationItemBox>{'CH4. SCROLL'}</S.AnimationItemBox>
           </Link>
           <Link to={'fifth'}>
-            <S.AnimationItemBox>{'ANIMATION 5'}</S.AnimationItemBox>
+            <S.AnimationItemBox>{'CH5. SLIDER'}</S.AnimationItemBox>
           </Link>
           <Link to={'sixth'}>
-            <S.AnimationItemBox>{'ANIMATION 6'}</S.AnimationItemBox>
+            <S.AnimationItemBox>{'CH6. OVERLAY'}</S.AnimationItemBox>
           </Link>
         </S.AnimationBox>
+        <S.Divider />
+        <S.SubText>{'FARMER MOTION'}</S.SubText>
       </S.Box>
     </S.Background>
   );

@@ -36,7 +36,7 @@ export const Divider = styled.span`
 `;
 
 export const AnimationBox = styled.div`
-  padding: 24px;
+  padding: 48px 24px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -55,4 +55,13 @@ export const AnimationItemBox = styled.div`
     cursor: pointer;
     background-color: #f8ede3;
   }
+`;
+
+export const SubText = styled.div`
+  height: 18%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 18px;
+  color: #707d7a;
 `;
