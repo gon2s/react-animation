@@ -21,6 +21,9 @@ function HomeScreen() {
           <Link to={'fourth'}>
             <S.AnimationItemBox>{'ANIMATION 4'}</S.AnimationItemBox>
           </Link>
+          <Link to={'fifth'}>
+            <S.AnimationItemBox>{'ANIMATION 5'}</S.AnimationItemBox>
+          </Link>
         </S.AnimationBox>
       </S.Box>
     </S.Background>
