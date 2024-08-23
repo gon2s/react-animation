@@ -1,6 +1,12 @@
 import React from 'react';
 import { createBrowserRouter } from 'react-router-dom';
-import { FirstScreen, HomeScreen, SecondScreen, ThirdScreen } from '../screens';
+import {
+  FirstScreen,
+  FourthScreen,
+  HomeScreen,
+  SecondScreen,
+  ThirdScreen,
+} from '../screens';
 
 const AppRouter = createBrowserRouter([
   {
@@ -18,6 +24,10 @@ const AppRouter = createBrowserRouter([
   {
     path: 'third',
     element: <ThirdScreen />,
+  },
+  {
+    path: 'fourth',
+    element: <FourthScreen />,
   },
 ]);
 
