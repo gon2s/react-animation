@@ -1,6 +1,6 @@
 import React from 'react';
 import { createBrowserRouter } from 'react-router-dom';
-import { FirstScreen, HomeScreen } from '../screens';
+import { FirstScreen, HomeScreen, SecondScreen } from '../screens';
 
 const AppRouter = createBrowserRouter([
   {
@@ -10,6 +10,10 @@ const AppRouter = createBrowserRouter([
   {
     path: 'first',
     element: <FirstScreen />,
+  },
+  {
+    path: 'second',
+    element: <SecondScreen />,
   },
 ]);
 
