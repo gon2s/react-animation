@@ -48,7 +48,7 @@ export const AnimationItemBox = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #a0937d;
+  box-shadow: 2px 2px 8px rgba(10, 37, 41, 0.25);
   color: black;
   border-radius: 12px;
   &:hover {
