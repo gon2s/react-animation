@@ -6,6 +6,7 @@ import {
   FourthScreen,
   HomeScreen,
   SecondScreen,
+  SixthScreen,
   ThirdScreen,
 } from '../screens';
 
@@ -33,6 +34,10 @@ const AppRouter = createBrowserRouter([
   {
     path: 'fifth',
     element: <FifthScreen />,
+  },
+  {
+    path: 'sixth',
+    element: <SixthScreen />,
   },
 ]);
 
