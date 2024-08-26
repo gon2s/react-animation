@@ -1,46 +1,91 @@
-# Getting Started with Create React App
+<br />
+<div align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="images/DanceBot.gif" alt="Logo" width="80" height="80">
+  </a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h3 align="center">FRAMER MOTION ANIMATION</h3>
 
-## Available Scripts
+  <p align="center">
+    <a  href="https://www.gon2s-animation.site">View Demo</a>
+  </p>
+</div>
 
-In the project directory, you can run:
+<br/>
 
-### `npm start`
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>목차</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+    </li>
+    <li><a href="#built-with">Built With</a></li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+    </li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<br/>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<!-- ABOUT THE PROJECT -->
 
-### `npm test`
+## About The Project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img src="images/Demo.png" alt="Logo" width="640" height="480">
 
-### `npm run build`
+React를 이용해 framer-motion에 대한 여러 애니베이션을 구현하기 위해 제작한 프로젝트 입니다.
+6개의 애니메이션으로 구성되어 있으며,
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- AnimatePresence
+- useScroll
+- useTransform
+  <br/>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+등을 이용해 제작한 애니메이션 입니다.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br/>
+<br/>
 
-### `npm run eject`
+### Built With
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+<br/>
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+<br/>
+![Framer](https://img.shields.io/badge/Framer-black?style=for-the-badge&logo=framer&logoColor=blue)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<br/>
+<br/>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<!-- GETTING STARTED -->
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Getting Started
 
-## Learn More
+1. Clone the repo
+   ```sh
+   git clone https://github.com/gon2s/react-animation.git
+   ```
+2. Install YARN packages
+   ```sh
+   yarn install
+   ```
+3. Start Project
+   ```sh
+   yarn start
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<br/>
+<br/>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- CONTACT -->
+
+## Contact
+
+NAME > 유승곤
+<br/>
+EMAIL > qpple6@naver.com
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
