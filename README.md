@@ -37,6 +37,7 @@
 <img src="images/Demo.png" alt="Logo" width="640" height="480">
 
 React를 이용해 framer-motion에 대한 여러 애니베이션을 구현하기 위해 제작한 프로젝트 입니다.
+<br/>
 6개의 애니메이션으로 구성되어 있으며,
 
 - AnimatePresence
